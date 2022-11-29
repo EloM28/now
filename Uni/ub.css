@@ -1,0 +1,351 @@
+body
+{
+	background: url(a.jpg) fixed no-repeat center;
+	background-size:cover;
+	weight: 100%;
+	height: 100%;
+	margin: 0;
+}
+.logo
+{
+	width: 65px;
+	float: left;
+	margin-top: -70px;
+	margin-left: 2px;
+	border-radius: 45%;
+}
+.infdv
+{
+	background-color:whitesmoke;
+	margin-top:70px;
+	height: 20px;
+}
+.inf
+{
+	background-color: whitesmoke;
+	margin-left: 0;
+	weight: 100%;
+	margin-top: -1px;
+	
+}
+.searchbox
+{
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	transform: translate(-50%,-50%);
+	background: #576574;
+	height: 20px;
+	border-radius: 40px;
+	padding: 10px;
+	
+}
+.srchbtn
+{
+  margin-top: -10px;
+  margin-left: 40px;
+  color: white;
+  float: right;
+  width: 40px;
+  height: 40px;
+ background: #576574;
+ border-radius: 40px;
+ display: flex;
+ justify-content: center;
+align-items: center;
+}
+.srchtxt
+{
+	margin-top: -7px;
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 130px;
+}
+/*
+.searchbox:hover>.srchtxt
+{
+	width: 130px;
+	padding: 0 6px;
+}
+.searchbox:hover>.srchbtn
+{
+	background: #7f8fa6;
+}
+*/
+     .nav1
+     {
+     	border:1px black ;
+     	margin-left: 0;
+     	width: 1259px;
+     	height:60px; 
+     	background-color: whitesmoke;
+     	padding-left: 90px;
+
+     }
+     .dnav1
+     {
+     	text-align:none;
+     	margin-top: 5px;
+     }
+
+ nav{
+display: inline-block;
+}
+nav ul
+{ 
+	height:80px;
+	margin-left: -18px;
+}
+nav li
+{
+display: inline-block;
+padding:5px;
+
+}
+.nav1 a
+{   
+	text-decoration: none;
+	border: 0.5px black ;
+	border-radius: 5px;
+	color: black;
+	background: rgb(0, 25, 50,0.5);
+}
+.nav1 a:hover
+{
+color: pink; 
+
+}
+.nav2
+{
+	background: whitesmoke;
+	border-radius: 2px 25px 25px 25px;
+}
+.nav2 a
+{
+	text-decoration: none;
+	border: 1px black ;
+	border-radius: 10px;
+	background: rgb(0, 50, 50,0.5);
+	color: black;
+
+}
+.nav2 a:hover
+{
+color: pink;
+background: rgb(0, 50, 50,0.8);
+}
+.nav31 a:hover
+{
+	color: pink;
+	background: rgb(0, 50, 50,0.8);
+border-radius: 5px;
+}
+.nav32 a:hover
+{
+	color: pink;
+	background: rgb(0, 50, 50,0.8);
+border-radius: 5px;
+}
+.nav33 a:hover
+{
+	
+	color: pink;
+	background: rgb(0, 50, 50,0.8);
+	border-radius: 5px;
+
+}
+.nav34 a:hover
+{
+	color: pink;
+	background: rgb(0, 50, 50,0.8);
+border-radius: 5px;
+
+}
+.info
+{
+	float: right;
+}
+@media screen and(max-width: 600px)
+{
+	body
+{
+	background: url(a.jpg) fixed no-repeat center;
+	background-size:cover;
+	weight: 100%;
+	height: 100%;
+	margin: 0;
+}
+.logo
+{
+	width: 65px;
+	float: left;
+	margin-top: -70px;
+	margin-left: 5px;
+	border-radius: 45%;
+}
+.infdv
+{
+	background-color:whitesmoke;
+	margin-top:70px;
+	height: 20px;
+}
+.inf
+{
+	background-color: whitesmoke;
+	margin-left: 0;
+	weight: 100%;
+	margin-top: -1px;
+	
+}
+.searchbox
+{
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	transform: translate(-50%,-50%);
+	background: #576574;
+	height: 20px;
+	border-radius: 40px;
+	padding: 10px;
+	
+}
+.srchbtn
+{
+  margin-top: -10px;
+  margin-left: 40px;
+  color: white;
+  float: right;
+  width: 40px;
+  height: 40px;
+ background: #576574;
+ border-radius: 40px;
+ display: flex;
+ justify-content: center;
+align-items: center;
+}
+.srchtxt
+{
+	margin-top: -7px;
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 130px;
+}
+/*
+.searchbox:hover>.srchtxt
+{
+	width: 130px;
+	padding: 0 6px;
+}
+.searchbox:hover>.srchbtn
+{
+	background: #7f8fa6;
+}
+*/
+     .nav1
+     {
+     	border:1px black ;
+     	margin-left: 0;
+     	width: 1259px;
+     	height:60px; 
+     	background-color: whitesmoke;
+     	padding-left: 90px;
+
+     }
+     .dnav1
+     {
+     	text-align:none;
+     	margin-top: 5px;
+     }
+
+ nav{
+display: inline-block;
+}
+nav ul
+{ 
+	height:80px;
+	margin-left: -18px;
+}
+nav li
+{
+display: inline-block;
+padding:5px;
+
+}
+.nav1 a
+{   
+	text-decoration: none;
+	border: 0.5px black ;
+	border-radius: 5px;
+	color: black;
+	background: rgb(0, 25, 50,0.5);
+}
+.nav1 a:hover
+{
+color: pink; 
+
+}
+.nav2
+{
+	background: whitesmoke;
+	border-radius: 2px 25px 25px 25px;
+}
+.nav2 a
+{
+	text-decoration: none;
+	border: 1px black ;
+	border-radius: 10px;
+	background: rgb(0, 50, 50,0.5);
+	color: black;
+
+}
+.nav2 a:hover
+{
+color: pink;
+background: rgb(0, 50, 50,0.8);
+}
+.nav31 a:hover
+{
+	color: pink;
+	background: rgb(0, 50, 50,0.8);
+border-radius: 5px;
+}
+.nav32 a:hover
+{
+	color: pink;
+	background: rgb(0, 50, 50,0.8);
+border-radius: 5px;
+}
+.nav33 a:hover
+{
+	
+	color: pink;
+	background: rgb(0, 50, 50,0.8);
+	border-radius: 5px;
+
+}
+.nav34 a:hover
+{
+	color: pink;
+	background: rgb(0, 50, 50,0.8);
+border-radius: 5px;
+
+}
+.info
+{
+	float: right;
+
+}

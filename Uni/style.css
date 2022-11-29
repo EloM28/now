@@ -1,0 +1,19 @@
+.submenu{
+    display: none;
+    
+}
+.menubar {
+    margin-left: 30px;
+}
+.menubar ul{
+   list-style: none;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menubar ul li:hover .submenu{
+    display: inline;
+    position: absolute;
+    background: rgb(226, 231, 217);
+      }

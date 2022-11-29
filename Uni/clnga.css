@@ -1,0 +1,47 @@
+body
+{
+	background: #FFF;
+}
+img
+{
+	background-attachment: fixed;
+	background-position:top right;
+	height:10%;
+	margin-top: 0px;
+	border-radius:25px 25px 25px 25px;
+	border-color: white;
+	top: -1%;
+}
+.za
+{
+	position: scroll;
+	right:5%;
+	left:3%;
+	top:1%;
+}
+a:hover /* Apparence au survol des liens */
+{
+color: yellow;
+}
+a:active/* Quand le visiteur clique sur le lien */
+{
+	color:red;
+}
+a:focus/* Quand le visiteur sélectionne le lien */
+{
+color:pink;
+}
+a:visited/* Quand le visiteur a déjà vu la page concernée */
+{
+	color:black;
+}
+nav li
+{
+	display:inline-table;
+	padding: 3px;
+}
+nav
+{
+    color: red;
+	text-align:left;
+}
